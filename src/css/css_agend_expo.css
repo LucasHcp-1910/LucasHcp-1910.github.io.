@@ -1,11 +1,18 @@
-#agendamentos {
+
+
+
+
+@media screen and (min-width: 641px){
+
+.agendamentos {
   background: url('sua-imagem-de-fundo.jpg') no-repeat center center/cover;
   padding: 40px;
   color: #f5e5c0;
   font-family: 'Georgia', serif;
 }
 
-#agendamentos h2 {
+
+.agendamentos h2 {
   text-align: center;
   font-weight: bold;
   font-size: 28px;
@@ -62,4 +69,5 @@ button {
 .mapa iframe {
   margin-top: 15px;
   border-radius: 10px;
+}
 }
