@@ -24,6 +24,3 @@ document.querySelectorAll('.carousel').forEach((carousel) => {
     updateCarousel();
   }, 5000);
 });
-
-// SCRIPT TROCAR LOCALIZAÇÃO MAPS
-
