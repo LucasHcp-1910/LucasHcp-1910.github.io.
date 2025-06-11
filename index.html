@@ -1,49 +1,119 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Ruas em Foco</title>
-        <link rel="stylesheet" type="text/css" href="./src/css/css_principal.css">
-    </head>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ruas em Foco</title>
+    <link rel="stylesheet" type="text/css" href="./src/css/css_principal.css">
+</head>
 
-    <body>
-        <!-- Section Imagem -->
-        <section class="fundo" id="home">
-            <!-- Quadrado preto -->
-            <div class="quadrado destaque">
-                <!-- Cabeçalho -->
-                <header class="header">
-                    <!-- Título -->
-                    <h1 class="titulo">CAPTURANDO A ESSÊNCIA DAS RUAS</h1>
-                    <!-- Logo -->
-                    <div class="div_logo">
-                        <img src="./src/assets/Logo Vetorizada sem fundo.png" alt="Logo Ruas em Foco" class="logo"/><a href="galeria.html" class="galeriabutton">IR PARA A GALERIA</a>
-                    </div>
-                </header>
-            
-                <!-- Bordas de Câmera -->
-                <div class="moldura">
-                    <span class="canto-esquerdo-dentro"></span>
-                    <span class="canto-direito-dentro"></span>
-                    <span class="canto-esquerdo-fora"></span>
-                    <span class="canto-direito-fora"></span>
+<body>
+    <!-- Section Imagem -->
+    <section class="fundo" id="home">
+        <!-- Quadrado preto -->
+        <div class="quadrado destaque">
+            <!-- Cabeçalho -->
+            <header class="header">
+                <!-- Título -->
+                <h1 class="titulo">CAPTURANDO A ESSÊNCIA DAS RUAS</h1>
+                <!-- Logo -->
+                <div class="div_logo">
+                    <img src="./src/assets/Logo Vetorizada sem fundo.png" alt="Logo Ruas em Foco" class="logo" /><a
+                        href="galeria.html" class="galeriabutton">IR PARA A GALERIA</a>
                 </div>
-            
-                <!-- Navegação -->
-                <nav class="nav">
-                    <!-- Ul Navegação -->
-                    <ul>
-                        <!-- Links -->
-                        <li class="carrinho"><a href="carrinho.html"><img src="../TF/src/assets/carrinho2.png" alt="Carrinho" class="icon"><hr style="width: 80px; border: 1px solid #fbe3b5;"><span>Carrinho</span></a></li>
-                        <li><a href="vendas.html">Vendas</a></li>
-                        <li><a href="agendamentos.html">Agendamentos</a></li>
-                        <li><a href="exposicoes.html">Exposições</a></li>
-                        <li><a href="sobre.html">Sobre Nós</a></li>
-                    </ul>
-                </nav>
+            </header>
+
+            <!-- Bordas de Câmera -->
+            <div class="moldura">
+                <span class="canto-esquerdo-dentro"></span>
+                <span class="canto-direito-dentro"></span>
+                <span class="canto-esquerdo-fora"></span>
+                <span class="canto-direito-fora"></span>
+            </div>
+
+            <!-- Navegação -->
+            <nav class="nav">
+                <!-- Ul Navegação -->
+                <ul>
+                    <!-- Links -->
+                    <li class="carrinho"><a href="carrinho.html"><img src="../TF/src/assets/carrinho2.png" alt="Carrinho" class="icon"><hr style="width: 80px; border: 1px solid #fbe3b5;"><span>Carrinho</span></a></li>
+                    <li><a href="vendas.html">Vendas</a></li>
+                    <li><a href="agendamentos.html">Agendamentos</a></li>
+                    <li><a href="exposicoes.html">Exposições</a></li>
+                    <li><a href="sobre.html">Sobre Nós</a></li>
+                </ul>
+            </nav>
+        </div>
+    </section>
+
+    <main>
+        <!-- SÃO PAULO -->
+        <section class="secao" id="secaosp">
+            <div class="container">
+                <h2>São Paulo</h2>
+                <div class="carousel">
+                    <div class="carousel-images">
+                        <img src="./src/assets/imgbeco_do_batman.jpg"
+                            data-desc="Grafites vibrantes espalhados pelas vielas da Vila Madalena.">
+                        <img src="./src/assets/rua_carmo.jpg">
+                        <img src="./src/assets/catedral_se.jpg">
+                        <img src="./src/assets/avenida paulista.jpg">
+                        <img src="./src/assets/masp.jpg">
+                        <img src="./src/assets/marginal_pinheiros.jpg">
+                    </div>
+                    <div class="carousel-buttons">
+                        <button class="prev-btn">&#10094;</button>
+                        <button class="next-btn">&#10095;</button>
+                    </div>
+                </div>
             </div>
         </section>
-    </body>
+
+        <!-- RIO DE JANEIRO -->
+        <section class="secao" id="secaorj">
+            <div class="container">
+                <h2>Rio de Janeiro</h2>
+                <div class="carousel">
+                    <div class="carousel-images">
+                        <img src="./src/assets/praia do forte.jpg">
+                        <img src="./src/assets/rj2.jpg">
+                        <img src="./src/assets/rj3.jpg">
+                        <img src="">
+                        <img src="">
+                        <img src="">
+                    </div>
+                    <div class="carousel-buttons">
+                        <button class="prev-btn">&#10094;</button>
+                        <button class="next-btn">&#10095;</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- BALNEÁRIO CAMBORIÚ -->
+        <section class="secao" id="secaosc">
+            <div class="container">
+                <h2>Balneário Camboriú</h2>
+                <div class="carousel">
+                    <div class="carousel-images">
+                        <img src="./src/assets/Balneário Camboriú.jpg">
+                        <img src="bc2.jpg">
+                        <img src="bc3.jpg">
+                        <img src="">
+                        <img src="">
+                        <img src="">
+                    </div>
+                    <div class="carousel-buttons">
+                        <button class="prev-btn">&#10094;</button>
+                        <button class="next-btn">&#10095;</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <script src="./src/js/script.js"></script>
+    </main>
+</body>
+
 </html>
