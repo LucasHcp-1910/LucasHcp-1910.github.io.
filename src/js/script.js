@@ -1,7 +1,7 @@
 // SCRIPT CARROSSEL GALERIA
-document.querySelectorAll('.carousel').forEach((carousel) => {
+document.querySelectorAll('.carrosel').forEach((carousel) => {
   let currentIndex = 0;
-  const imagesWrapper = carousel.querySelector('.carousel-images');
+  const imagesWrapper = carousel.querySelector('.carrosel-images');
   const images = imagesWrapper.querySelectorAll('img');
   const totalImages = images.length;
 
