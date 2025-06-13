@@ -37,7 +37,10 @@
                 <!-- Ul Navegação -->
                 <ul>
                     <!-- Links -->
-                    <li class="carrinho"><a href="carrinho.html"><img src="../TF/src/assets/carrinho2.png" alt="Carrinho" class="icon"> <hr style="width: 80px; border: 1px solid #fbe3b5;"><span>Carrinho</span> </a></li>
+                    <li class="carrinho"><a href="carrinho.html"><img src="../TF/src/assets/carrinho2.png"
+                                alt="Carrinho" class="icon">
+                            <hr style="width: 80px; border: 1px solid #fbe3b5;"><span>Carrinho</span>
+                        </a></li>
                     <li><a href="vendas.html">Vendas</a></li>
                     <li><a href="agendamento_e_exposicoes.html">Agendamentos</a></li>
                     <li><a href="sobre.html">Sobre Nós</a></li>
@@ -48,24 +51,21 @@
 
     <main>
         <!-- SÃO PAULO -->
-        <section class="secao" id="secaosp">
-            <div class="container">
-                <h2>São Paulo</h2>
-                <div class="carrossel">
-                    <div class="carrossel-images">
-                        <div class="texto">
-                            <h2>Beco do Batman</h2>
-                            <p>O Beco do Batman é um dos pontos mais emblemáticos de arte urbana em São Paulo,
-                                localizado no coração do bairro boêmio da Vila Madalena. O local é conhecido por suas
-                                vielas estreitas, como as ruas Gonçalo Afonso e Medeiros de Albuquerque, completamente
-                                cobertas por grafites vibrantes e murais que se renovam constantemente.</p>
-                        </div>
-                        <img src="./src/assets/imgbeco_do_batman.jpg" name="imgsp" id="imgsp">
+        <div class="fundogaleriasp">
+            <div class="conteudo-principal">
+                <h1 class="titulo">CAPTURANDO A ESSÊNCIA DAS RUAS</h1>
+                <p class="localizacao">📍 SÃO PAULO, SP, BRAZIL</p>
+                <div class="card">
+                    <img src="./src/assets/imgbeco_do_batman.jpg" name="imgsp" id="imgsp">
+                    <div class="texto-beco">
+                        <h2>Beco do Batman</h2>
+                        <p>O Beco do Batman é um dos pontos mais emblemáticos de arte urbana em São Paulo, localizado no coração do bairro boêmio da Vila Madalena. O local é conhecido por suas vielas estreitas, como as ruas Gonçalo Afonso e Medeiros de Albuquerque, completamente cobertas por grafites vibrantes e murais que se renovam constantemente.</p>
                     </div>
-                    <p class="ante" onClick="anterior()">&#60;</p>
-                    <p class="prox" onClick="proximo()">&#62;</p>
                 </div>
+                <p class="ante" onClick="anterior()">&#60;</p>
+                <p class="prox" onClick="proximo()">&#62;</p>
             </div>
+        </div>
         </section>
 
         <!-- RIO DE JANEIRO -->
@@ -111,5 +111,6 @@
         </section>
     </main>
 </body>
-    <script src="./src/js/script.js"></script>
+<script src="./src/js/script.js"></script>
+
 </html>
