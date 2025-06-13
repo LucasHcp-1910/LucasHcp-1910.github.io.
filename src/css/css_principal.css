@@ -209,6 +209,7 @@ body, html
   color: #dcbf95;
 }
 
+/* Botão ir para a Galeria */
 .galeriabutton
 {
   background-color: #f5deb3;
@@ -222,12 +223,14 @@ body, html
   transition: 0.3s;
 }
 
+/* Em cima do botão ir para galeria */
 .galeriabutton:hover  
 {
   background-color: #e5c98c;
   text-decoration: underline;
 }
 
+/* Ícone carrinho */
 .icon
 {
   width: auto;
@@ -235,6 +238,7 @@ body, html
   vertical-align: middle;
 }
 
+/* Link carrinho */
 .carrinho
 {
   position: absolute;
@@ -245,9 +249,10 @@ body, html
   align-items: center;
   font-weight: bold;
   color: #fbe3b5;
-  text-shadow: 1px 1px 2px #000;
+  text-shadow: 1vw 1vw 2vw #000;
 }
 
+/* Imagem carrinho */
 .carrinho img
 {
   width: 32px;
@@ -262,143 +267,104 @@ body, html
 
 
 
-
   /* GALERIA */
 
-  main
-{
-  font-family: Arial, sans-serif;
-  background-color: #f9f9f9;
-  margin: 0;
-  padding: 0;
+main {
+  font-family: 'Arial', sans-serif;
+  height: 100%;
 }
 
-.container
-{
-  max-width: 50vw;
-  margin: auto;
-  padding: 20px;
-}
-
-h1, h2
-{
-  text-align: center;
-  margin-bottom: 20px;
-}
-
-.carrosel
-{
-  position: relative;
-  overflow: hidden;
-  width: 100%;
-  margin-bottom: 40px;
-  background: #000;
-  border-radius: 8px;
-}
-
-.carrosel-images
-{
-  display: flex;
-  transition: transform 0.5s ease-in-out;
-  width: 100%;
-}
-
-.carrosel-images img
+/* Fundo com imagem e blur */
+.fundogaleriasp
 {
   width: 100%;
-  max-height: 750px;
-  object-fit: contain;
-  flex-shrink: 0;
-  background-color: #000;
-}
-
-.ante
-{
-	font-weight:bold;
-	font-size:4vw;
-	text-align:center;
-	display:inline-block;
-	width:5%;
-	background-color:rgba(100,100,100,0.7);
-	position:absolute;
-	left:85px;
-	top:150px;
-	z-index:1;
-}
-	  
-.ante:hover, .prox:hover
-{
-	cursor:pointer;
-	background-color:rgba(40,40,40,0.7);
-}
-	  
-.prox
-{
-	font-weight:bold;
-	font-size:4vw;
-	text-align:center;
-	display:inline-block;
-	width:5%;
-	background-color:rgba(100,100,100,0.7);
-	position:absolute;
-	left:170px;
-	top:150px;
-	z-index:1;
-}
-
-.secao
-{
-  position: relative;
-  height: 100vh;
-  background-size: cover;
-  background-repeat: no-repeat;
+  height: 1;
+  background-image: url('../assets/imgbeco_do_batman.jpg');
   background-position: center;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  filter: blur(0px);
+  position: relative;
+}
+
+.fundogaleriasp::before {
+  content: '';
+  position: absolute;
+  top: 0; left: 0;
+  width: 100%; height: 100%;
+  background-color: rgba(0, 0, 0, 0.5); /* escurece um pouco */
+  backdrop-filter: blur(4px);
   z-index: 1;
 }
 
-.card
-{
-  background-color: #3e3b39;
-  color: #f0dfc5;
-  padding: 30px;
-  border-radius: 16px;
-  max-width: 700px;
-  box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+/* Conteúdo principal */
+.conteudo-principal {
+  position: relative;
+  z-index: 2;
+  padding: 50px 20px;
+  max-width: 1000px;
+  margin: 0 auto;
+  color: #fff;
+  text-align: center;
+}
+
+/* Título e localização */
+.titulo {
+  font-size: 2.5em;
+  font-weight: bold;
+  color: #f9e7c1;
+  margin-bottom: 10px;
+  text-shadow: 2px 2px #000;
+}
+
+.localizacao {
+  font-size: 1.2em;
+  margin-bottom: 40px;
+  color: #ffdf7f;
+}
+
+/* Card com imagem e texto */
+.card {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #333;
+  border-radius: 10px;
+  overflow: hidden;
   text-align: left;
+  margin-bottom: 30px;
 }
 
-#secaosp
-{
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-image: url('../assets/fundo-desfocado-saopaulo.png');
+.imagem-beco {
+  width: 100%;
+  max-width: 300px;
+  object-fit: cover;
 }
 
-#secaorj
-{
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-image: url('../assets/fundo-desfocado-rj.png');
-}
-
-#secaosc
-{
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-image: url('../assets/fundo-desfocado-bc.png');
-}
-
-.texto
-{
+.texto-beco {
+  padding: 20px;
   flex: 1;
-  font-size: 18px;
-  line-height: 1.6;
+  color: #f3f3f3;
+}
+
+.texto-beco h2 {
+  margin-bottom: 10px;
+  color: #f9e7c1;
+}
+
+/* Botão */
+.botao-galeria {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 12px 24px;
+  background-color: #f9e7c1;
+  color: #000;
+  font-weight: bold;
+  text-decoration: none;
+  border-radius: 8px;
+  transition: 0.3s;
+}
+
+.botao-galeria:hover {
+  background-color: #ffd369;
+  transform: scale(1.05);
 }
 
 @media (min-width:1008px)
