@@ -12,7 +12,7 @@
     <!-- Section Imagem -->
     <section class="fundo" id="home">
         <!-- Quadrado preto -->
-        <div class="quadrado destaque">
+        <div class="destaque">
             <!-- Cabeçalho -->
             <header class="header">
                 <!-- Título -->
@@ -39,7 +39,7 @@
                     <!-- Links -->
                     <li class="carrinho"><a href="carrinho.html"><img src="../TF/src/assets/carrinho2.png"
                                 alt="Carrinho" class="icon">
-                            <hr style="width: 80px; border: 1px solid #fbe3b5;"><span>Carrinho</span>
+                            <span>Carrinho</span>
                         </a></li>
                     <li><a href="vendas.html">Vendas</a></li>
                     <li><a href="agendamento_e_exposicoes.html">Agendamentos</a></li>
@@ -53,62 +53,104 @@
         <!-- SÃO PAULO -->
         <div class="fundogaleriasp">
             <div class="conteudo-principal">
-                <h1 class="titulo">CAPTURANDO A ESSÊNCIA DAS RUAS</h1>
-                <p class="localizacao">📍 SÃO PAULO, SP, BRAZIL</p>
-                <div class="card">
-                    <img src="./src/assets/imgbeco_do_batman.jpg" name="imgsp" id="imgsp">
-                    <div class="texto-beco">
-                        <h2>Beco do Batman</h2>
-                        <p>O Beco do Batman é um dos pontos mais emblemáticos de arte urbana em São Paulo, localizado no coração do bairro boêmio da Vila Madalena. O local é conhecido por suas vielas estreitas, como as ruas Gonçalo Afonso e Medeiros de Albuquerque, completamente cobertas por grafites vibrantes e murais que se renovam constantemente.</p>
-                    </div>
+                <div class="retangulo">
+                    <h1 class="titulomain">CAPTURANDO A ESSÊNCIA DAS RUAS</h1>
+                    <p class="localizacao">
+                        <img src="./src/assets/icon_loc.png" alt="Ícone de localização" class="iconloc">
+                        <span>SÃO PAULO, SP, BRASIL</span>
+                    </p>
                 </div>
-                <p class="ante" onClick="anterior()">&#60;</p>
-                <p class="prox" onClick="proximo()">&#62;</p>
+
+                <div class="card">
+
+                    <img src="./src/assets/img_beco_do_batman.jpg" name="imagenssp" id="imgsp">
+                    <div class="textogal">
+                        <h2 id="titulossp">Beco do Batman</h2>
+                        <p id="legendassp">O Beco do Batman é um dos pontos mais emblemáticos de arte urbana em São
+                            Paulo, localizado no coração do bairro boêmio da Vila Madalena. O local é conhecido por
+                            suas
+                            vielas estreitas, como as ruas Gonçalo Afonso e Medeiros de Albuquerque, completamente
+                            cobertas por grafites vibrantes e murais que se renovam constantemente.</p>
+                    </div>
+                    <p class="prox" onclick="proximosp()">&#62;</p>
+                    <p class="ante" onclick="anteriorsp()">&#60;</p>
+                </div>
+                <div class="moldurasecao">
+                    <span class="ced"></span>
+                    <span class="cdd"></span>
+                    <span class="cef"></span>
+                    <span class="cdf"></span>
+                </div>
             </div>
         </div>
-        </section>
 
-        <!-- RIO DE JANEIRO -->
-        <section class="secao" id="secaorj">
-            <div class="container">
-                <h2>Rio de Janeiro</h2>
-                <div class="carrossel">
-                    <div class="carrossel-images">
-                        <img src="./src/assets/praia do forte.jpg">
-                        <img src="./src/assets/rj2.jpg">
-                        <img src="./src/assets/rj3.jpg">
-                        <img src="">
-                        <img src="">
-                        <img src="">
+
+
+        <!-- RIO DE JANEIRO !-->
+        <div class="fundogaleriarj">
+            <div class="conteudo-principal">
+                <div class="retangulo">
+                    <h1 class="titulomain">CAPTURANDO A ESSÊNCIA DAS RUAS</h1>
+                    <p class="localizacao">
+                        <img src="./src/assets/icon_loc.png" alt="Ícone de localização" class="iconloc">
+                        <span>RIO DE JANEIRO, RJ, BRASIL</span>
+                    </p>
+                </div>
+
+                <div class="card">
+
+                    <img src="./src/assets/img_praia_do_forte.jpg" name="imgrj" id="imgrj">
+                    <div class="textogal">
+                        <h2 id="tituloimgrj">Praia do Forte</h2>
+                        <p id="legendaimgrj">Localizada em Cabo Frio, no estado do Rio de Janeiro, é famosa por suas
+                            praias de areias finas e águas transparentes. Considerada por muitos turistas uma das praias
+                            mais bonitas do litoral fluminense, oferece excelente infraestrutura, diversas opções de
+                            lazer e um ambiente propício para relaxar.</p>
                     </div>
-                    <div class="carrosel-buttons">
-                        <button class="prev-btn">&#10094;</button>
-                        <button class="next-btn">&#10095;</button>
-                    </div>
+                    <p class="prox" onclick="proximorj()">&#62;</p>
+                    <p class="ante" onclick="anteriorrj()">&#60;</p>
+                </div>
+                <div class="moldurasecao">
+                    <span class="ced"></span>
+                    <span class="cdd"></span>
+                    <span class="cef"></span>
+                    <span class="cdf"></span>
                 </div>
             </div>
-        </section>
+        </div>
 
-        <!-- BALNEÁRIO CAMBORIÚ -->
-        <section class="secao" id="secaosc">
-            <div class="container">
-                <h2>Balneário Camboriú</h2>
-                <div class="carrossel">
-                    <div class="carrossel-images">
-                        <img src="./src/assets/Balneário Camboriú.jpg">
-                        <img src="bc2.jpg">
-                        <img src="bc3.jpg">
-                        <img src="">
-                        <img src="">
-                        <img src="">
+        <!-- SANTA CATARINA !-->
+        <div class="fundogaleriasc">
+            <div class="conteudo-principal">
+                <div class="retangulo">
+                    <h1 class="titulomain">CAPTURANDO A ESSÊNCIA DAS RUAS</h1>
+                    <p class="localizacao">
+                        <img src="./src/assets/icon_loc.png" alt="Ícone de localização" class="iconloc">
+                        <span>BALNEÁRIO CAMBORIÚ, SC, BRASIL</span>
+                    </p>
+                </div>
+
+                <div class="card">
+
+                    <img src="./src/assets/img_centro_balneario.jpg" name="imgsc" id="imgsc">
+                    <div class="textogal">
+                        <h2 id="tituloimgsc">Centro Balneário</h2>
+                        <p id="legendaimgsc">O centro de Balneário Camboriú é um dos locais mais movimentados da cidade,
+                            com diversas opções de comércio, gastronomia e entretenimento. A região central atrai
+                            moradores e turistas durante o dia e a noite, sendo um ponto estratégico para quem deseja
+                            aproveitar ao máximo tudo o que a cidade oferece.</p>
                     </div>
-                    <div class="carrosel-buttons">
-                        <button class="prev-btn">&#10094;</button>
-                        <button class="next-btn">&#10095;</button>
-                    </div>
+                    <p class="prox" onclick="proximosc()">&#62;</p>
+                    <p class="ante" onclick="anteriorsc()">&#60;</p>
+                </div>
+                <div class="moldurasecao">
+                    <span class="ced"></span>
+                    <span class="cdd"></span>
+                    <span class="cef"></span>
+                    <span class="cdf"></span>
                 </div>
             </div>
-        </section>
+        </div>
     </main>
 </body>
 <script src="./src/js/script.js"></script>
