@@ -1,0 +1,680 @@
+/* Telas de até 374px*/
+@media screen and (max-width:374px) {
+    body {
+        font-size: 4vw;
+    }
+
+    .div_logo {
+        margin-top: 90%;
+    }
+
+    .logo {
+        width: 80%;
+    }
+
+    main {
+        margin-top: -6vh;
+        margin-bottom: -2vh;
+    }
+
+    .card {
+        min-height: 150vw;
+    }
+
+    .textogal {
+        min-height: 55vw;
+    }
+
+    .fundogaleriarj {
+        margin-top: -5.8vh;
+    }
+
+    .fundogaleriasc {
+        margin-top: -5.8vh;
+    }
+
+    .prox {
+        top: 51%;
+    }
+
+    .ante {
+        top: 51.2%;
+    }
+}
+
+/* Telas de no mínimo 375px até 424px */
+@media screen and (min-width:375px) and (max-width:424px) {
+
+    .logo {
+        width: 80%;
+    }
+
+    .div_logo {
+        margin-top: 65%;
+    }
+
+    main {
+        margin-top: -7vh;
+        margin-bottom: -2vh;
+    }
+
+    .card {
+        min-height: 140vw;
+    }
+
+    .textogal {
+        min-height: 58vw;
+    }
+
+    .cdd {
+        top: 18%;
+    }
+
+    .fundogaleriarj {
+        margin-top: -6.9vh;
+    }
+
+    .fundogaleriasc {
+        margin-top: -6.9vh;
+    }
+
+    .prox {
+        top: 51%;
+    }
+
+    .ante {
+        top: 51.5%;
+    }
+}
+
+/* Telas de no mínimo 425px até 768px */
+@media screen and (min-width: 425px) and (max-width:767px) {
+    body {
+        font-size: 4vw;
+    }
+
+    .div_logo {
+        margin-top: 60%;
+    }
+
+    .logo {
+        width: 65%;
+    }
+
+    main {
+        margin-top: -8vh;
+        margin-bottom: -2vh;
+    }
+
+    .card {
+        min-height: 120vw;
+    }
+
+    .textogal {
+        min-height: 55vw;
+    }
+
+    .cdd {
+        top: 17.6%;
+    }
+
+    .fundogaleriasc {
+        margin-top: -14vh;
+    }
+
+    .home {
+        left: 41%;
+    }
+
+    .fundogaleriarj {
+        margin-top: -7.8vh;
+    }
+
+    .fundogaleriasc {
+        margin-top: -7.9vh;
+    }
+
+    .prox {
+        top: 50.6%;
+    }
+
+    .ante {
+        top: 51%;
+    }
+}
+
+/* Telas mínimo de 768px até 1024px*/
+@media screen and (min-width: 768px) and (max-width:1023px) {
+    body {
+        font-size: 2vw;
+    }
+
+    .titulo {
+        font-size: 3.5vw;
+    }
+
+    .div_logo {
+        margin-top: 25%;
+    }
+
+    .logo {
+        width: 45%;
+    }
+
+    .canto-esquerdo-dentro {
+        width: 11.5vw;
+        height: 11.5vw;
+        border: 1vw solid #f5deb3;
+        border-radius: 1vw;
+        border-right: none;
+        border-top: none;
+    }
+
+    .canto-direito-dentro {
+        width: 11.5vw;
+        height: 11.5vw;
+        border: 1vw solid #f5deb3;
+        border-radius: 1vw;
+        border-left: none;
+        border-bottom: none;
+    }
+
+    .canto-esquerdo-fora {
+        width: 11.5vw;
+        height: 8.5vw;
+        border: 1vw solid #f5deb3;
+        border-radius: 1vw;
+        border-right: none;
+        border-top: none;
+    }
+
+    .canto-direito-fora {
+        width: 11.5vw;
+        height: 8.5vw;
+        border: 1vw solid #f5deb3;
+        border-radius: 1vw;
+        border-left: none;
+        border-bottom: none;
+    }
+
+    .galeriabutton {
+        border-radius: 2vw;
+        padding: 1.5vw 3vw;
+    }
+
+    .home {
+        top: 120%;
+        left: 45.25%;
+    }
+
+    main {
+        margin-top: -14vh;
+        margin-bottom: -4vh;
+    }
+
+    .card {
+        min-height: 50vw;
+    }
+
+    .ced {
+        border: 1vw solid #f5deb3;
+        border-right: none;
+        border-top: none;
+        border-radius: 1vw;
+    }
+
+    .cdd {
+        top: 21.8%;
+        border: 1vw solid #f5deb3;
+        border-left: none;
+        border-bottom: none;
+        border-radius: 1vw;
+    }
+
+    .cef {
+        bottom: 81%;
+        border: 1vw solid #f5deb3;
+        border-right: none;
+        border-top: none;
+        border-radius: 1vw;
+    }
+
+    .cdf {
+        border: 1vw solid #f5deb3;
+        border-left: none;
+        border-bottom: none;
+        border-radius: 1vw;
+    }
+
+    .textogal {
+        font-size: 2.5vw;
+        min-height: 25vw;
+    }
+
+    .fundogaleriarj {
+        margin-top: -14vh;
+    }
+
+    .fundogaleriasc {
+        margin-top: -14vh;
+    }
+
+    .prox {
+        top: 55.7%;
+    }
+
+    .ante {
+        top: 56%;
+    }
+}
+
+@media screen and (min-width:1024px) and (max-width:1439px) {
+    body {
+        font-size: 2vw;
+    }
+
+    .titulo {
+        font-size: 3vw;
+    }
+
+    .div_logo {
+        margin-top: 20%;
+    }
+
+    .logo {
+        width: 45%;
+    }
+
+    .canto-esquerdo-dentro {
+        width: 11.5vw;
+        height: 11.5vw;
+        border: 1vw solid #f5deb3;
+        border-radius: 1vw;
+        border-right: none;
+        border-top: none;
+    }
+
+    .canto-direito-dentro {
+        width: 11.5vw;
+        height: 11.5vw;
+        border: 1vw solid #f5deb3;
+        border-radius: 1vw;
+        border-left: none;
+        border-bottom: none;
+    }
+
+    .canto-esquerdo-fora {
+        width: 11.5vw;
+        height: 8.5vw;
+        border: 1vw solid #f5deb3;
+        border-radius: 1vw;
+        border-right: none;
+        border-top: none;
+    }
+
+    .canto-direito-fora {
+        width: 11.5vw;
+        height: 8.5vw;
+        border: 1vw solid #f5deb3;
+        border-radius: 1vw;
+        border-left: none;
+        border-bottom: none;
+    }
+
+    .galeriabutton {
+        border-radius: 1.5vw;
+        padding: 1vw 3vw;
+    }
+
+    .home {
+        top: 120%;
+        left: 45.25%;
+    }
+
+    main {
+        margin-top: -18.6vh;
+        margin-bottom: -5vh;
+    }
+
+    .card {
+        min-height: 50vw;
+    }
+
+    .ced {
+        border: 1vw solid #f5deb3;
+        border-right: none;
+        border-top: none;
+        border-radius: 1vw;
+    }
+
+    .cdd {
+        top: 21.8%;
+        border: 1vw solid #f5deb3;
+        border-left: none;
+        border-bottom: none;
+        border-radius: 1vw;
+    }
+
+    .cef {
+        bottom: 81%;
+        border: 1vw solid #f5deb3;
+        border-right: none;
+        border-top: none;
+        border-radius: 1vw;
+    }
+
+    .cdf {
+        border: 1vw solid #f5deb3;
+        border-left: none;
+        border-bottom: none;
+        border-radius: 1vw;
+    }
+
+    .textogal {
+        font-size: 2.5vw;
+        min-height: 25vw;
+    }
+
+    .fundogaleriarj {
+        margin-top: -18.6vh;
+    }
+
+    .fundogaleriasc {
+        margin-top: -18.7vh;
+    }
+
+    .prox {
+        top: 55.7%;
+    }
+
+    .ante {
+        top: 55.6%;
+    }
+}
+
+@media screen and (min-width:1440px) and (max-width:2559px) {
+    body {
+        font-size: 1.5vw;
+    }
+
+    .titulo {
+        font-size: 3vw;
+    }
+
+    .div_logo {
+        margin-top: 15%;
+    }
+
+    .logo {
+        width: 40%;
+    }
+
+    .canto-esquerdo-dentro {
+        width: 11.5vw;
+        height: 11.5vw;
+        border: 1vw solid #f5deb3;
+        border-radius: 1vw;
+        border-right: none;
+        border-top: none;
+    }
+
+    .canto-direito-dentro {
+        width: 11.5vw;
+        height: 11.5vw;
+        border: 1vw solid #f5deb3;
+        border-radius: 1vw;
+        border-left: none;
+        border-bottom: none;
+    }
+
+    .canto-esquerdo-fora {
+        width: 11.5vw;
+        height: 8.5vw;
+        border: 1vw solid #f5deb3;
+        border-radius: 1vw;
+        border-right: none;
+        border-top: none;
+    }
+
+    .canto-direito-fora {
+        width: 11.5vw;
+        height: 8.5vw;
+        border: 1vw solid #f5deb3;
+        border-radius: 1vw;
+        border-left: none;
+        border-bottom: none;
+    }
+
+    .galeriabutton {
+        border-radius: 1.5vw;
+        padding: 1vw 3vw;
+    }
+
+    .home {
+        top: 120%;
+        left: 46.5%;
+    }
+
+    main {
+        margin-top: -18.6vh;
+        margin-bottom: -5vh;
+    }
+
+    .titulomain {
+        font-size: 3.15vw;
+    }
+
+    .localizacao {
+        font-size: 2vw;
+    }
+
+    .iconloc {
+        width: 2vw;
+    }
+
+    .card {
+        margin-bottom: 4vh;
+        min-height: 40vh;
+    }
+
+    .card img {
+        align-items: center;
+        width: 50dvw;
+        height: 80dvh;
+    }
+
+    .ced {
+        border: 1vw solid #f5deb3;
+        border-right: none;
+        border-top: none;
+        border-radius: 1vw;
+    }
+
+    .cdd {
+        top: 39.6%;
+        border: 1vw solid #f5deb3;
+        border-left: none;
+        border-bottom: none;
+        border-radius: 1vw;
+    }
+
+    .cef {
+        bottom: 65%;
+        border: 1vw solid #f5deb3;
+        border-right: none;
+        border-top: none;
+        border-radius: 1vw;
+    }
+
+    .cdf {
+        border: 1vw solid #f5deb3;
+        border-left: none;
+        border-bottom: none;
+        border-radius: 1vw;
+    }
+
+    .textogal {
+        font-size: 2vw;
+        min-height: 25vh;
+    }
+
+    .fundogaleriarj {
+        margin-top: -23.6vh;
+    }
+
+    .fundogaleriasc {
+        margin-top: -23.7vh;
+    }
+
+    .prox {
+        top: 69.7%;
+    }
+
+    .ante {
+        top: 70.3%;
+    }
+
+}
+
+@media screen and (min-width:2560px) {
+    body {
+        font-size: 1.5vw;
+    }
+
+    .titulo {
+        font-size: 3vw;
+    }
+
+    .div_logo {
+        margin-top: 15%;
+    }
+
+    .logo {
+        width: 40%;
+    }
+
+    .canto-esquerdo-dentro {
+        width: 11.5vw;
+        height: 11.5vw;
+        border: 1vw solid #f5deb3;
+        border-radius: 1vw;
+        border-right: none;
+        border-top: none;
+    }
+
+    .canto-direito-dentro {
+        width: 11.5vw;
+        height: 11.5vw;
+        border: 1vw solid #f5deb3;
+        border-radius: 1vw;
+        border-left: none;
+        border-bottom: none;
+    }
+
+    .canto-esquerdo-fora {
+        width: 11.5vw;
+        height: 8.5vw;
+        border: 1vw solid #f5deb3;
+        border-radius: 1vw;
+        border-right: none;
+        border-top: none;
+    }
+
+    .canto-direito-fora {
+        width: 11.5vw;
+        height: 8.5vw;
+        border: 1vw solid #f5deb3;
+        border-radius: 1vw;
+        border-left: none;
+        border-bottom: none;
+    }
+
+    .galeriabutton {
+        border-radius: 1.5vw;
+        padding: 1vw 2vw;
+    }
+
+    .home {
+        top: 120%;
+        left: 46.5%;
+    }
+
+    main {
+        margin-top: -18.6vh;
+        margin-bottom: -5vh;
+    }
+
+    .titulomain {
+        font-size: 3.15vw;
+    }
+
+    .localizacao {
+        font-size: 2vw;
+    }
+
+    .iconloc {
+        width: 2vw;
+    }
+
+    .card {
+        margin-bottom: 4vh;
+        min-height: 40vh;
+    }
+
+    .card img {
+        align-items: center;
+        width: 50dvw;
+        height: 80dvh;
+    }
+
+    .ced {
+        border: 1vw solid #f5deb3;
+        border-right: none;
+        border-top: none;
+        border-radius: 1vw;
+    }
+
+    .cdd {
+        top: 39.6%;
+        border: 1vw solid #f5deb3;
+        border-left: none;
+        border-bottom: none;
+        border-radius: 1vw;
+    }
+
+    .cef {
+        bottom: 65%;
+        border: 1vw solid #f5deb3;
+        border-right: none;
+        border-top: none;
+        border-radius: 1vw;
+    }
+
+    .cdf {
+        border: 1vw solid #f5deb3;
+        border-left: none;
+        border-bottom: none;
+        border-radius: 1vw;
+    }
+
+    .textogal {
+        font-size: 2vw;
+        min-height: 25vh;
+    }
+
+    .fundogaleriarj {
+        margin-top: -21.8vh;
+    }
+
+    .fundogaleriasc {
+        margin-top: -23.7vh;
+    }
+
+    .prox {
+        top: 70.3%;
+    }
+
+    .ante {
+        top: 70.3%;
+    }
+}

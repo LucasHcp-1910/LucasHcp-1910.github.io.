@@ -1,0 +1,87 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: 'Georgia', serif;
+  background-color: #2e2e2e;
+  color: #d8c5a1;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.sobre_nos {
+  padding: 20px;
+  background-color: #2e2e2e;
+  flex: 1;
+}
+
+.conteudo {
+  display: flex;
+  justify-content:space-between;
+  max-width: 100%;
+  margin: 0;
+  gap: 40px;
+}
+
+.div_logo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.logo {
+  width: 100%;
+  margin-bottom: 20px;
+  height: auto;
+}
+
+.redes {
+  display: flex;
+  gap: 15px;
+  justify-content: center;
+}
+
+.redes img {
+  width: 40px;
+}
+
+.redes img:hover {
+  transform: scale(1.1);
+}
+
+.texto h2 {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #bda885;
+}
+
+.texto h3 {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #bda885;
+  margin-bottom: 20px;
+}
+
+.texto p {
+  text-align: justify;
+  line-height: 1.6;
+  margin-bottom: 15px;
+}
+
+/* RODAPÉ */
+footer {
+  width: 100%;
+  background-color: black;
+  text-align: center;
+  padding: 20px;
+  margin-top: 40px;
+}
+
+footer p {
+  color: #f1e4c8;
+  font-weight: bold;
+}

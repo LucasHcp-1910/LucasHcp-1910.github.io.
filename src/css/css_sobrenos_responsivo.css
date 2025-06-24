@@ -1,0 +1,100 @@
+@media screen and (max-width:480px) {
+    .conteudo {
+        display: flex;
+        flex-direction: column;
+    }
+
+    footer p {
+        font-size: 3.5vw;
+    }   
+}
+
+@media screen and (min-width:481px) and (max-width:768px) {
+    .logo {
+        width: 35vw;
+    }
+
+    .redes img {
+        width: 50px;
+    }
+}
+
+@media screen and (min-width:768px) and (max-width:1024px) {
+    .texto p {
+        font-size: 1.7vw;
+    }
+
+    footer p {
+        font-size: 1.8vw;
+    }
+}
+
+@media screen and (min-width:1024px) and (max-width:1440px) {
+    .logo {
+        width: 30vw;
+    }
+    
+    .texto p {
+        font-size: 1.7vw;
+    }
+}
+
+@media screen and (min-width:1440px) and (max-width:2559px) {
+    .logo {
+        width: 22vw;
+    }
+
+    .redes img {
+        width: 3.2vw;
+    }
+
+    .texto p {
+        font-size: 1.5vw;
+    }
+
+    .div_logo p {
+        font-size: 1.2vw;
+    }
+
+    .texto h2 {
+        font-size: 1.7vw;
+    }
+
+    .texto h3 {
+        font-size: 1.3vw;
+    }
+
+    footer p {
+        font-size: 1.1vw;
+    }
+}
+
+@media screen and (min-width:2560px){
+    .logo {
+        width: 25vw;
+    }
+
+    .redes img {
+        width: 3.5vw;
+    }
+
+    .texto p {
+        font-size: 1.7vw;
+    }
+
+    .div_logo p {
+        font-size: 1.4vw;
+    }
+
+    .texto h2 {
+        font-size: 1.8vw;
+    }
+
+    .texto h3 {
+        font-size: 1.5vw;
+    }
+
+    footer p {
+        font-size: 1vw;
+    }
+}

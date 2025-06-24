@@ -1,0 +1,87 @@
+body {
+    background-color: #000000;
+    background-position: center;
+    color: #f5deb3;
+    font-family: 'Georgia', serif;
+}
+
+h1 {
+    font-size: 3vw;
+    color: #dcbf95;
+    text-align: center;
+}
+
+.container {
+    background-color: rgba(204, 204, 204, 0.4);
+    margin-left: 15%;
+    width: 70%;
+    border: 3px solid #f5deb3;
+}
+
+.container p {
+    text-align: center;
+}
+
+h2 {
+    color: #dcbf95;
+    text-align: center;
+}
+
+h3 {
+    color: #dcbf95;
+    text-align: center;
+}
+
+label {
+    display: block;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+input[type="date"] {
+    margin-left: 10%;
+    width: 90%;
+    padding: 10px;
+    margin-bottom: 2%;
+    border: 2px solid #d3d3d3;
+    border-radius: 5px;
+}
+
+iframe {
+    margin-left: 14%;
+}
+
+button {
+    padding: 1.5vw 2vw;
+    margin-left: 41.6%;
+    bottom: 4vw;
+    background-color: #f5deb3;
+}
+
+ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+li {
+    margin: 10px 0;
+}
+
+.home {
+    margin-left: 42.5%;
+    width: 15%;
+    text-align: center;
+    color: #f5deb3;
+    background-color: gray;
+}
+
+.home a {
+    text-decoration: none;
+    color: #f5deb3;
+    font-weight: bold;
+}
+
+#ticket-resultado {
+    background-color: rgb(99, 99, 99);
+}
