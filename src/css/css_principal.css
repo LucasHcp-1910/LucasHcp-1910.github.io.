@@ -204,6 +204,7 @@
     font-family: 'Georgia', serif;
     box-shadow: 0.5vw 0.5vw 1.5vw rgba(0, 0, 0, 0.4);
     transition: 0.3s;
+    z-index: 5;
   }
 
   /* Em cima do botão ir para galeria */
