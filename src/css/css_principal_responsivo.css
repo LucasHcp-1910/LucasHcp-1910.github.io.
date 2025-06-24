@@ -678,3 +678,8 @@
         top: 70.3%;
     }
 }
+
+/* RESPONSIVIDADE NAVEGADOR, PODE APAGAR O COMENTÁRIO DEPOIS DE MEXER */
+@media screen and (min-width:1920) and (max-width:1920){
+    
+}
